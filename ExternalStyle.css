@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(244, 244, 246);
+    padding-top: 44px;
+    padding-bottom: 49px;
+}
+header{
+    color: white;
+    line-height: 44px;
+    font-size: 18px;
+    background: rgb(40,133,202);
+    text-align: center;
+    width: 100%;
+
+    left: 0;
+    top: 0;
+    position: fixed;
+
+    z-index: 100;
+}
+
+.DS_second_section img{
+    width: 100%;
+}
+
+.SP_third_section img{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+/*成行的标签  width:一个需要的值*/
+footer{
+    display: table;
+    width: 100%;
+    background: black;
+    height: 49px;
+
+    left: 0;
+    bottom: 0;
+    position: fixed;
+}
+/*成列的标签  width:一个需要的值*/
+footer a{
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+footer a span{
+    display: block;
+    color: white;
+    font-size: 12px;
+}
+
+footer a img{
+    width: 20px;
+}
+
+
+.EP_second_section{
+    height: 44px;
+    display: table;
+    width: 100%;
+}
+
+.EP_second_section a{
+    display: table-cell;
+    width: 33.3%;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+
+}
+
+.EP_second_section a span{
+    font-size: 16px;
+    display: block;
+    color: black;
+}
+
+.EP_fourth_section{
+    height: 173px;
+    width: 100%;
+    background: white;
+}
+
+.EP_span{
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+
+.EP_fourth_section img{
+    width: 100%;
+    height: 138px;
+}
+
+.EP_fourth_second_span{
+    display: block;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+}
+
+.EP_fifth_section{
+    height: 242px;
+    width: 100%;
+}
+
+.EP_fifth_section img{
+    width: 100%;
+    height: 120px;
+}
+
+.EP_fifth_section div{
+    margin-left: 20px;
+    color: gray;
+    font-size: 10px;
+    line-height: 2em;
+}
+
+.EP_sixth_section{
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+.EP_sixth_section div{
+    margin-left: 20px;
+    color: gray;
+    font-size: 10px;
+    line-height: 2em;
+}
+
+.BP_fourth_section{
+    height: 90px;
+    background: white;
+    margin-bottom: 5px;
+}
+
+.BP_img{
+    width: 100%;
+}
+
+.BP_fifth_section{
+    text-align: center;
+}
+.BP_fifth_section img{
+    width: 100%;
+}
+
+.MD_bg_img{
+    width: 100%;
+}
